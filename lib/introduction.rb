@@ -100,11 +100,16 @@ def introduction(name = 'bri')
  puts "Hi, my name is #{name}."
 end
 
+introduction
 
 def introduction_with_language(name = 'bri', language = 'ruby')
  puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
 
+introduction_with_language
+
 def introduction_with_language_optional(name = "Bri", language="Ruby")
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
+
+introduction_with_language_optional
