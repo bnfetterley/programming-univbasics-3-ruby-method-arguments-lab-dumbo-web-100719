@@ -96,7 +96,7 @@
 
 
 
-def introduction(name = "bri")
+def introduction(name = "Bri")
  puts "Hi, my name is #{name}."
 end
 
